@@ -1,0 +1,15 @@
+* {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-size: 60px;
+  line-height: 50px;
+}
+
+p {
+  color: #02ff73;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline dotted #02ffff;
+}
