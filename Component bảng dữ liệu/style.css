@@ -1,0 +1,29 @@
+table,
+th,
+td {
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+}
+.table-caption {
+  line-height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.admin-user-table {
+  text-align: center;
+  line-height: 40px;
+  width: 1000px;
+}
+
+.bg-blue {
+  background-color: #027bff;
+}
+
+.bg-gray {
+  background-color: #f2f2f2;
+}
