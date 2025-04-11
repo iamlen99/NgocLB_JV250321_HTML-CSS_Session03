@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: white;
+  background-color: #007bff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+}
+
+.content {
+  width: 700px;
+  margin: 10px auto;
+}
+
+.content img {
+  width: 100px;
+  border-radius: 50%;
+  border: solid 2px yellow;
+}
