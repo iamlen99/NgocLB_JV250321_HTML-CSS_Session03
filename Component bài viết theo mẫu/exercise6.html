@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component bài viết theo mẫu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">5. Groups of selector</h2>
+      <p>
+        A comma-separeted list of selectors represents the union of all elements
+        selected by each of the individual selectors in the list. (A comma is
+        U+002C). For example, in CSS when several selectors share the same
+        declarations, they may be grouped into a comma-separated list. White
+        space may appear before and/or after the comma.
+      </p>
+      <div class="bar"></div>
+      <div class="example">
+        <p>CSS example:</p>
+        <p>
+          In this example, we condense three rules with identical declarations
+          into one. Thus,
+        </p>
+        <p>
+          h1 {font-family: sans-serif} <br />
+          h2 {font-family: sans-serif} <br />
+          h3 {font-family: sans-serif}
+        </p>
+        <p>is equivalent to:</p>
+        <p>h1, h2, h3 {font-family: sans-serif}</p>
+      </div>
+    </div>
+  </body>
+</html>

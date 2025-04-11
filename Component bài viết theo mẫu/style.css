@@ -1,0 +1,12 @@
+.container {
+  width: 700px;
+}
+.title {
+  color: #15689a;
+}
+
+.example {
+  background-color: #fffaef;
+  padding: 15px 10px;
+  border-left: solid 10px #decb55;
+}
